@@ -8,7 +8,7 @@ as give students some industrial insight into software development projects.
 ## Setup Introduction
 
 Java development is driven by the version of the language being used for any given project. The most common versions
-being 8 or greater, 11 or greater, and 17 or greater. All of these versions are marked as Long-term Support (LTS)
+being 8, 11, and 17. All of these versions are marked as Long-term Support (LTS)
 releases, which as of this writing means that they will be maintained for three years from the release date.
 
 It is often necessary to have multiple versions of the Java software development kit (SDK) installed on a computer,
