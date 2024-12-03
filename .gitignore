@@ -1,3 +1,6 @@
 # Add IntelliJ IDEA generated files
 .idea
 *.iml
+
+# Add compiled code
+target/
