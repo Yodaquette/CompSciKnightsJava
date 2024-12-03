@@ -1,4 +1,4 @@
-# CompSci Knights Bootcamp: Java
+# Comp Sci Knights Bootcamp: Java
 
 Welcome to the Middle Georgia State University Computer Science student group Java bootcamp.
 This project features some Java programming examples and supporting material. The goal of
@@ -15,7 +15,7 @@ It is often necessary to have multiple versions of the Java software development
 since developers may work on projects that require different versions of the language. Therefore, manual
 installation/configuration of the Java development environment is not recommended (although, it is possible).
 
-A much better solution for installing and managing Java SDKs is to use a SDK Manager or a Package Manager. There
+A much better solution for installing and managing Java SDKs is to use an SDK Manager or a Package Manager. There
 are a few good options for Linux, macOS, and even Windows.
 
 * Linux
