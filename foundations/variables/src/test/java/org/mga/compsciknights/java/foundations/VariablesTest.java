@@ -12,7 +12,7 @@ class VariablesTest {
     org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(VariablesTest.class);
 
     @Test
-    void defaultConstructorSetsAllMemberVariable() {
+    void defaultConstructorSetsAllMemberVariables() {
         log.info("START verifying the Variables default constructor");
         Variables variables = new Variables();
 
