@@ -102,4 +102,9 @@ javac 17.0.13
 
 ## Introduction to Java Programming
 
+### Hello, World!
 
+[hello-world](foundations/hello-world/src/main/java/org/mga/compsciknights/java/foundations/HelloWorld.java)
+
+Ah, the obligatory programming example that honestly accomplishes very little, other than printing some silly text to the screen.
+What _is_ significant, though, are the processes that run in the background to successfully compile and execute the program.
