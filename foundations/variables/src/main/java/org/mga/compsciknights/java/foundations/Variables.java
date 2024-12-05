@@ -88,9 +88,9 @@ public class Variables {
      */
     public void setaString(String aString) {
         if (aString == null || aString.isEmpty()) {
-            this.aString = aString;
-        } else {
             this.aString = "no string was provided.";
+        } else {
+            this.aString = aString;
         }
     }
 
