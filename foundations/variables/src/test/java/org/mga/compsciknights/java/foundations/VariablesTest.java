@@ -32,4 +32,17 @@ class VariablesTest {
         log.info("DONE verifying the Variables default constructor");
     }
 
+    @Test
+    void constructorThatAllowsPassingAString() {
+        log.info("START verifying the Variables constructor with a String argument.");
+        String testMsg = "this is a test";
+        Variables variables = new Variables(testMsg);
+
+        assertThat(
+            "Constructor taking a String argument succeeds",
+            variables.getaString(),
+            equalTo(testMsg)
+        );
+    }
+
 }
