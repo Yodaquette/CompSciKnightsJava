@@ -33,8 +33,8 @@ class VariablesTest {
     }
 
     @Test
-    void constructorThatAllowsPassingAString() {
-        log.info("START verifying the Variables constructor with a String argument.");
+    void constructorAcceptsAStringValue() {
+        log.info("START verifying Variables constructor with a String argument.");
         String testMsg = "this is a test";
         Variables variables = new Variables(testMsg);
 
@@ -43,6 +43,34 @@ class VariablesTest {
             variables.getaString(),
             equalTo(testMsg)
         );
+        log.info("DONE verifying Variables constructor with a String argument.");
+    }
+
+    @Test
+    void constructorHandlesEmptyString() {
+        log.info("START verifying the Variables constructor with an empty String.");
+        String testMsg = "";
+        Variables variables = new Variables(testMsg);
+
+        assertThat(
+            "Constructor handles an empty String argument",
+            variables.getaString(),
+            equalTo("no string was provided.")
+        );
+        log.info("DONE verifying the Variables constructor with an empty String.");
+    }
+
+    @Test
+    void constructorHandlesNull() {
+        log.info("START verifying the Variables constructor with a null.");
+        Variables variables = new Variables(null);
+
+        assertThat(
+            "Constructor handles an empty String argument",
+            variables.getaString(),
+            equalTo("no string was provided.")
+        );
+        log.info("DONE verifying the Variables constructor with a null.");
     }
 
 }
