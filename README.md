@@ -132,7 +132,7 @@ Two clear distinctions must be derived from this exploration of a running Java p
 * The Java language &mdash; The human-readable computer code written by programmers (or at the very least generated and then
 modified by programmers)
 * The Java platform &mdash; The JVM runtime environment that links and compiles human-readable code into non-human-readable
-bytecode
+bytecode that is then loaded, interpreted, JIT compiled, and executed as machine code. 
 
 Spending some time dissecting Java class files, the bytecode, and how classes are loaded and used is a valuable
 exercise. Obtaining a full understanding of this process is one of the things that can transform a junior Java programmer
