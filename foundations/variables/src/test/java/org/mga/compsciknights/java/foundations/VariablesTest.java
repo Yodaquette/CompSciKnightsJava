@@ -2,6 +2,8 @@ package org.mga.compsciknights.java.foundations;
 
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Test;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.equalTo;
@@ -9,7 +11,7 @@ import static org.hamcrest.Matchers.equalTo;
 @Slf4j
 class VariablesTest {
 
-    org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(VariablesTest.class);
+    Logger log = LoggerFactory.getLogger(VariablesTest.class);
 
     @Test
     void defaultConstructorSetsAllMemberVariables() {
