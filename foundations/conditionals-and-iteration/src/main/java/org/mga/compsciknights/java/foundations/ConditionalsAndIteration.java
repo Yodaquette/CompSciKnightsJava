@@ -7,7 +7,7 @@ public class ConditionalsAndIteration {
 
     private static final Logger log = LoggerFactory.getLogger(ConditionalsAndIteration.class);
 
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
         String message;
         if (args == null || args.length == 0) {
             message = "Program input is empty.";
