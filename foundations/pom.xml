@@ -11,6 +11,7 @@
     <modules>
         <module>hello-world</module>
         <module>variables</module>
+        <module>conditionals-and-iteration</module>
     </modules>
 
     <dependencyManagement>
