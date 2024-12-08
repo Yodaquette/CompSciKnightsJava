@@ -12,6 +12,7 @@
         <module>hello-world</module>
         <module>variables</module>
         <module>conditionals-and-iteration</module>
+        <module>objectivity</module>
     </modules>
 
     <dependencyManagement>
