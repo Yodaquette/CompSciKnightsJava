@@ -13,6 +13,7 @@
         <module>variables</module>
         <module>conditionals-and-iteration</module>
         <module>objectivity</module>
+        <module>data-types-and-scope</module>
     </modules>
 
     <dependencyManagement>
