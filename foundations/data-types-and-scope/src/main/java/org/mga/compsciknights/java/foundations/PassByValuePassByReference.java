@@ -12,7 +12,6 @@ public class PassByValuePassByReference {
     public static void main(String[] args) {
         int[] even = {2, 4, 6, 8};
         int[] odd = {1, 3, 5, 7, 9};
-        int[] fib = {0, 1, 1, 2, 3, 5};
         int index = 0;
 
         // Example of Pass by Value
