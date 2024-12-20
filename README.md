@@ -8,7 +8,7 @@ as give students some industrial insight into software development projects.
 ## Setup Introduction
 
 Java development is driven by the version of the language being used for any given project. The most common versions
-being 8, 11, and 17. All of these versions are marked as Long-term Support (LTS)
+currently used in the industry being 8, 11, and 17. All of these versions are marked as Long-term Support (LTS)
 releases, which as of this writing means that they will be maintained for three years from the release date.
 
 It is often necessary to have multiple versions of the Java software development kit (SDK) installed on a computer,
@@ -31,7 +31,7 @@ A (mostly) operating system agnostic tool for installing/managing SDKs is SDK Ma
 By using this tool, it is possible to install multiple different versions of Java, as well as a slew of other SDKs, and
 switching between different versions is as easy as running a simple command in the terminal. 
 
-## Setup Java Development Environment on Windows
+### Setup Java Development Environment on Windows
 
 The reason SDKMAN! is _mostly_ OS-agnostic is due to it requiring an extra tool on Windows, the _Windows Subsystem for Linux_
 ([WSL](https://learn.microsoft.com/en-us/windows/wsl/about)).
@@ -48,7 +48,7 @@ which is needed for using SDKMAN!.
 
 Reboot the computer and follow the next section.
 
-## Setup Java Development Environment on UNIX-based Systems
+### Setup Java Development Environment on UNIX-based Systems
 
 Installing SDKMAN! on a UNIX system is very easy.
 
@@ -139,3 +139,9 @@ exercise. Obtaining a full understanding of this process is one of the things th
 into an expert Java programmer. Such an examination is beyond the scope of this bootcamp, but here is a link to a
 [Java Class File Format](https://docs.oracle.com/javase/specs/jvms/se7/html/jvms-4.html) document that can be used as a
 starting point.
+
+### Variables
+
+[variables](foundations/variables/src/main/java/org/mga/compsciknights/java/foundations/Variables.java)
+
+
