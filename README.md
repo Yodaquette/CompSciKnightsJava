@@ -144,4 +144,37 @@ starting point.
 
 [variables](foundations/variables/src/main/java/org/mga/compsciknights/java/foundations/Variables.java)
 
+Variables in Java are either _Primitive_ or _Reference_ types. Primitives variables store simple values such as `int`,
+`float`, and `char`. A full list of primitive data types can be found [here](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html).
+They are set using the assignment operator `=`. For example,
 
+```java
+public class Example {
+    public static void main(String[] args) {
+        int x = 3;
+        float y = 33.3F;
+        char z = 'xyz';
+        System.out.println(String.format("x==%d\ny==%f\nz==%c", x, y, z));
+    }
+}
+```
+
+Each of these primitive variables are allocated directly in memory and then deallocated once the program exits.
+
+Reference types represent more complex data structures such as class types, interface types, and arrays as seen
+[here](https://docs.oracle.com/javase/specs/jls/se7/html/jls-4.html#jls-4.3). These types are also set using the
+assignment operator, but they differ in an important way. Before this difference is explored, however, an examination
+of how variables are allocated in memory must be done.
+
+#### A High-level Examination of Variable Allocation in Memory
+
+The process of allocating, managing, and referencing resources in memory is quite complex from the perspective of the
+computer's operating system. There are many things to consider like memory tables, virtual memory addresses, virtual
+memory tables, cold and hot caches, the list is vast. For the purpose of this document, there are only two memory
+resources that matter: the _Stack_ and the _Heap_.
+
+##### The Stack
+
+The Stack is a last-in-first-out (LIFO) data structure that allocates memory in a bottom-up fashion. It can be
+thought of as a call stack that allocates and frees memory as needed by the running computer program. A _Stack Frame_
+is pushed onto the stack that stores new methods and any associated variables.  
