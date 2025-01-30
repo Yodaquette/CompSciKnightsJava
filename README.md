@@ -1,4 +1,4 @@
-# Comp Sci Knights Bootcamp: Java
+# Comp-Sci Knights Bootcamp: Java
 
 Welcome to the Middle Georgia State University Computer Science student group Java bootcamp.
 This project features some Java programming examples and supporting material. The goal of

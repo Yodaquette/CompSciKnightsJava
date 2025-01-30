@@ -1,4 +1,4 @@
-package org.mga.compsciknights.java.foundations;
+package org.mga.compsciknights.java.foundations.simplegame;
 
 public interface Command {
 
